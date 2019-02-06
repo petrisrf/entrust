@@ -157,16 +157,16 @@ In general, it may be helpful to think of the last two attributes in the form of
 
 #### User
 
-Next, use the `EntrustUserTrait` trait in your existing `User` model. For example:
+Next, use the `EntrustCachedUserTrait` trait in your existing `User` model. For example:
 
 ```php
 <?php
 
-use Zizaco\Entrust\Traits\EntrustUserTrait;
+use Zizaco\Entrust\Traits\EntrustCachedUserTrait;
 
 class User extends Eloquent
 {
-    use EntrustUserTrait; // add this trait to your user model
+    use EntrustCachedUserTrait; // add this trait to your user model
 
     ...
 }
@@ -526,7 +526,7 @@ SQLSTATE[HY000]: General error: 1005 Can't create table 'laravelbootstrapstarter
 Then it's likely that the `id` column in your user table does not match the `user_id` column in `role_user`.
 Make sure both are `INT(10)`.
 
-When trying to use the EntrustUserTrait methods, you encounter the error which looks like
+When trying to use the EntrustCachedUserTrait methods, you encounter the error which looks like
 
     Class name must be a valid object or a string
 
