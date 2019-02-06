@@ -1,5 +1,5 @@
 {
-    "name": "zizaco/entrust",
+    "name": "petrisrf/entrust",
     "description": "This package provides a flexible way to add Role-based Permissions to Laravel",
     "keywords": ["laravel","illuminate","auth","roles","acl","permission"],
     "license": "MIT",
@@ -19,7 +19,12 @@
         {
             "name": "Michele Angioni",
             "email": "michele.angioni@gmail.com"
+        },
+        {
+            "name": "Petris Rodrigo Fernandes",
+            "email": "petrisrf@gmail.com"
         }
+
     ],
     "require": {
         "php": ">=5.5.0",
