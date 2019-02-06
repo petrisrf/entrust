@@ -1,6 +1,6 @@
 {
     "name": "petrisrf/entrust",
-    "description": "This package provides a flexible way to add Role-based Permissions to Laravel",
+    "description": "Role-based Permissions to Laravel with fix for multiple database calls",
     "keywords": ["laravel","illuminate","auth","roles","acl","permission"],
     "license": "MIT",
     "authors": [
